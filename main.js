@@ -1,6 +1,7 @@
 
 
 function main(){
+    showTime();
     setInterval(showTime, 1000);
 
     document.getElementById("bgButtons").addEventListener('click', (e) => {
