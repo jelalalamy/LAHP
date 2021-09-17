@@ -2,13 +2,12 @@
     "manifest_version": 2,
     "name": "LAHP",
     "description": "A little extension to make your homepage look a little nicer :D.",
-    "version": "1.00",
+    "version": "1.2",
     "icons": {"128": "icon_128.png"},
     "browser_action": {
         "default_icon": "icon.png"
     },
     "chrome_url_overrides":{
         "newtab": "index.html"
-    },
-    "permissions": ["activeTab"]
+    }
 }
